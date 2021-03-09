@@ -1,0 +1,302 @@
+*{
+   list-style-type: none;
+   
+}
+body {
+
+    font-family: sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+
+
+}
+p{
+   
+color: black;
+
+}
+li {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.NavBar {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    justify-content:left;
+    
+
+}
+.Nav_Bar1 > img{
+    height: 190px;
+    width: 150px;
+    margin-left: -5px;
+    margin-top: -65px;
+   
+  
+}
+.Nav_Bar1 #Item1{
+
+    margin-left: 132px;
+    margin-top: -120px;
+    margin-right: 45px;
+    
+}
+
+.Txbox1{
+    margin-left: 290px;
+    margin-top: 4px ;
+    position: absolute;
+   
+    width: 35%;
+    height: 50px;
+    border-radius: 60px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.719);
+
+    padding-left: 45px;
+    
+}
+#Label2{
+    margin-left: 845px;
+    margin-top: 25px ;
+    position: fixed;
+
+
+}
+#Label3{
+    margin-left: 995px;
+    margin-top: 25px ;
+    position: fixed;
+
+
+}
+.Popup_Bar {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    background-color: rgb(206, 206, 206);
+    height: 550px;
+
+}
+
+.Sub_Menu{
+   display: none;
+    margin-top: 40px;
+   
+    padding: 15px;
+    padding-right: 105px;
+    padding-bottom: 30px;
+    max-width: 250px;
+    margin-bottom: 5px;
+    background: rgb(255, 255, 255);
+    line-height: 200%;
+    
+    border-color: rgb(218, 216, 216);
+    border-radius: 3px;
+    
+}
+
+/* Hover */
+
+.Sub_Menu li:hover{
+     color: rgb(88, 88, 255);
+    cursor: pointer;
+
+}
+
+label:hover{
+    color: rgb(88, 88, 255);
+   cursor: pointer;
+
+}
+
+/* Show Submenu */
+
+.Nav_Bar1 #Item1:hover  .Sub_Menu{
+   display: block;
+
+}
+.UDEMY {
+
+    cursor: pointer;
+}
+.SEARCH {
+
+    background-size: 15px;
+    position: fixed;
+    margin-left: 300px;
+    margin-top: 22px ;
+}
+
+.CART {
+
+
+    background-size: 15px;
+    position: fixed;
+    margin-left: 1125px;
+    margin-top: 22px ;
+
+}
+
+/*Popup bar */
+
+.Tool_Box{
+
+  display: flex;
+  justify-content: space-evenly;
+  color: bisque;
+  position:absolute; 
+  left: 50%; 
+  margin-left: -45%; 
+  margin-top: 12%; 
+  width: 90%;
+   height: 300px; 
+   background: rgb(255, 255, 255);
+   border: none;
+
+   
+   
+
+}
+
+.Tool_Box1, .Tool_Box2 , .Tool_Box3 , .Tool_Box4 , .Tool_Box5 {
+    
+    margin-top: 1%;
+    margin-left: 0.5%;
+    width: 17%;
+    height: 90%; 
+    border: 1px 1px 1px black;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    cursor: pointer;
+
+} 
+
+#Item1 {
+
+
+
+    position: absolute;
+    z-index: 50;
+}
+
+.Img3 , .Img4 , .Img5, .Img6, .Img7{
+
+    padding-left: 1%;
+    width: 100%;
+}
+h1 {
+  color: black;
+  font-size: 16px;
+  margin: 0;
+  margin-left: 0;
+}
+
+h3{
+  color: grey;
+font-size: 12px;
+}
+#star {
+    color: orange;
+    
+    transform: translate(-50%, -50%)
+    
+  }
+
+  .C2 {
+    display: none;
+    padding: 10px;
+    padding-bottom: 10px;
+    padding-top: -3px;
+    width: 300px;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    border-color: rgb(218, 216, 216);
+    border-radius: 9px;
+    top: 90px;
+    right: 980px;
+  }
+  
+  .C3 {
+    display: none;
+    padding: 10px;
+    padding-bottom: 10px;
+    padding-top: -3px;
+    width: 300px;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    border-color: rgb(218, 216, 216);
+    border-radius: 9px;
+    top: 90px;
+    right: 680px;
+  }
+  .C4 {
+    display: none;
+    padding: 10px;
+    padding-bottom: 10px;
+    padding-top: -3px;
+    width: 300px;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    border-color: rgb(218, 216, 216);
+    border-radius: 9px;
+    top: 90px;
+    right: 480px;
+  }
+
+  .C5 {
+    display: none;
+    padding: 10px;
+    padding-bottom: 10px;
+    padding-top: -3px;
+    width: 300px;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    border-color: rgb(218, 216, 216);
+    border-radius: 9px;
+    top: 90px;
+    right: 220px;
+  }
+
+  .C6 {
+    display: none;
+    padding: 10px;
+    padding-bottom: 10px;
+    padding-top: -3px;
+    width: 300px;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    border-color: rgb(218, 216, 216);
+    border-radius: 9px;
+    top: 90px;
+    right: 0px;
+  }
+  
+  .Tool_Box1:hover .C2{
+
+    display: block;
+    transition: .4s;
+  }
+  .Tool_Box2:hover .C3{
+
+    display: block;
+    transition: .4s;
+  }
+  .Tool_Box3:hover .C4{
+
+    display: block;
+    transition: .4s;
+  }
+  .Tool_Box4:hover .C5{
+
+    display: block;
+    transition: .4s;
+  }
+  .Tool_Box5:hover .C6{
+
+    display: block;
+    transition: .4s;
+  }
